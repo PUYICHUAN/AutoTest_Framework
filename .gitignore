@@ -1,0 +1,20 @@
+# Python 编译文件
+__pycache__/
+*.pyc
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 测试报告（这部分数据量大且动态，不传）
+reports/
+allure-results/
+allure-report/
+
+# 日志文件
+*.log
+
+# IDE 配置
+.vscode/
+.idea/

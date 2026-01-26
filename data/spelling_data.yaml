@@ -1,0 +1,13 @@
+# data/spelling_data.yaml
+test_get_home_list:
+  - case_name: "获取拼字房间列表-默认筛选"
+    pageNo: 1
+    pageSize: 10
+    filterType: 4
+    expected_code: "2000"
+
+  - case_name: "获取拼字房间列表-空数据页"
+    pageNo: 999
+    pageSize: 10
+    filterType: 4
+    expected_code: "2000"

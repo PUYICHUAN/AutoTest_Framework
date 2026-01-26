@@ -1,0 +1,5 @@
+# data/user_data.yaml
+test_get_word_list:
+  - case_name: "正常获取拼字房间列表"
+    page_num: 1
+    expected_code: "2000"
