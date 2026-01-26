@@ -1,0 +1,47 @@
+name: API-Auto-Test-CI
+
+# 触发条件：当代码推送到 main 分支，或者每天凌晨 0 点定时执行
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 16 * * *' # UTC时间 16:00 是北京时间 00:00
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 1. 下载代码
+        uses: actions/checkout@v3
+
+      - name: 2. 安装 Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: 3. 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 4. 执行测试用例
+        # 注意：这里我们加上 continue-on-error，防止用例失败导致整个流程中断，我们要看报告
+        run: |
+          pytest -v --alluredir=allure-results
+        continue-on-error: true
+
+      - name: 5. 生成 Allure 报告
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        with:
+          allure_results: allure-results
+          allure_history: allure-history
+          keep_reports: 20
+
+      - name: 6. 发布报告到 GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: allure-history
