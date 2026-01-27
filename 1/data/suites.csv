@@ -1,4 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","252","获取拼字房间列表-空数据页","testcases","Mon Jan 26 08:59:23 UTC 2026","broken","Mon Jan 26 08:59:24 UTC 2026","TestWriter","test_writer_ai","",""
-"","252","test_get_word_list_flow","testcases","Mon Jan 26 08:59:23 UTC 2026","broken","Mon Jan 26 08:59:23 UTC 2026","TestWriter","test_writer_ai","",""
-"","248","获取拼字房间列表-默认筛选","testcases","Mon Jan 26 08:59:23 UTC 2026","broken","Mon Jan 26 08:59:23 UTC 2026","TestWriter","test_writer_ai","",""
