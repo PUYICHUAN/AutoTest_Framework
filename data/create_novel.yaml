@@ -1,0 +1,6 @@
+test_create_novel:
+  - case_name : "创建草稿书"
+    title : "测试作品"
+    coverUrl: "https://ccstatic-1252317822.file.myqcloud.com/ccstatic/writer/cover/cover_draft2.png"
+    deliverType: 0
+    expected_code: "2000"

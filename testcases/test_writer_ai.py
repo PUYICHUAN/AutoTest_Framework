@@ -4,7 +4,7 @@ from api.writer_api import WriterApi
 from common.yaml_handler import read_yaml
 
 
-@allure.feature("创作中心自动化测试")
+@allure.feature("作家自动化测试")
 class TestWriter:
 
     def setup_class(self):
