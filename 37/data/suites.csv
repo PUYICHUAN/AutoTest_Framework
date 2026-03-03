@@ -1,7 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"测试使用自定义参数的登录功能","1192","测试 ptlogin 登录接口 - 自定义参数","testcases","Mon Mar 02 16:43:12 UTC 2026","failed","Mon Mar 02 16:43:13 UTC 2026","TestPtlogin","test_ptlogin","",""
-"","1004","获取拼字房间列表-默认筛选","testcases","Mon Mar 02 16:43:15 UTC 2026","broken","Mon Mar 02 16:43:16 UTC 2026","TestWriter","test_writer_ai","",""
-"","268","test_get_word_list_flow","testcases","Mon Mar 02 16:43:15 UTC 2026","broken","Mon Mar 02 16:43:15 UTC 2026","TestWriter","test_writer_ai","",""
-"使用不同的用户名和密码测试登录功能","998","测试 ptlogin 登录接口 - 参数化测试","testcases","Mon Mar 02 16:43:11 UTC 2026","failed","Mon Mar 02 16:43:12 UTC 2026","TestPtlogin","test_ptlogin","",""
-"","269","获取拼字房间列表-空数据页","testcases","Mon Mar 02 16:43:16 UTC 2026","broken","Mon Mar 02 16:43:16 UTC 2026","TestWriter","test_writer_ai","",""
-"测试用户通过 ptlogin 接口登录功能","1026","测试 ptlogin 登录接口","testcases","Mon Mar 02 16:43:10 UTC 2026","failed","Mon Mar 02 16:43:11 UTC 2026","TestPtlogin","test_ptlogin","",""
