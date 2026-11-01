@@ -1,0 +1,41 @@
+
+============================================================
+【请求地址】: POST https://uat-pcwrite.yuewen.com/ccauthorweb/pc/login/auth
+【请求体】  : {
+    "ywGuid": 813125900305,
+    "ywKey": "ywV5A7fWvSUp",
+    "ticket": "ttBNMZMTmbdT"
+}
+【状态码】  : 403
+【响应正文】: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>stgw</center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+
+
+============================================================
+【请求地址】: GET https://uat-pcwrite.yuewen.com/writeraiapiserver/desk/customize/content/check/getCustomizeWordList
+【状态码】  : 403
+【响应正文】: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>stgw</center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+
